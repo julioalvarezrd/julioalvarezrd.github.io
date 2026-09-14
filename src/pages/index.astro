@@ -3,7 +3,7 @@ import '../styles/global.css';
 const ig='https://instagram.com/julioalvarezrd';
 ---
 <!doctype html>
-<html lang="es" data-theme="dark">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,94 +11,84 @@ const ig='https://instagram.com/julioalvarezrd';
   <title>Julio Alvarez · Ingeniero de Sistemas Computacionales</title>
 </head>
 <body>
-<header class="topbar">
-  <a class="brand" href="#top">Julio<span>Alvarez</span></a>
+<header class="site-header">
+  <a class="wordmark" href="#top">JULIO ALVAREZ</a>
   <nav class="desktop-nav">
-    <a href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a>
-    <a href="#services" data-es="Áreas" data-en="Expertise">Áreas</a>
+    <a href="#about" data-es="Perfil" data-en="About">Perfil</a>
+    <a href="#work" data-es="Trabajo" data-en="Work">Trabajo</a>
     <a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
-    <a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
   </nav>
-  <div class="top-actions">
-    <button id="lang-toggle" class="icon-btn" aria-label="Cambiar idioma">EN</button>
-    <button id="theme-toggle" class="icon-btn" aria-label="Cambiar tema">☼</button>
-    <button id="menu-toggle" class="menu-btn" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  <div class="header-actions">
+    <button id="lang-toggle" class="text-btn">EN</button>
+    <button id="theme-toggle" class="text-btn" aria-label="Cambiar tema">◐</button>
+    <button id="menu-toggle" class="menu-btn" aria-label="Abrir menú" aria-expanded="false">MENU</button>
   </div>
 </header>
 <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
-  <a href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a>
-  <a href="#services" data-es="Áreas" data-en="Expertise">Áreas</a>
+  <a href="#about" data-es="Perfil" data-en="About">Perfil</a>
+  <a href="#work" data-es="Trabajo" data-en="Work">Trabajo</a>
   <a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
   <a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
 </div>
 
 <main id="top">
   <section class="hero shell">
-    <div class="hero-photo-wrap">
-      <img class="hero-photo" src="https://avatars.githubusercontent.com/u/20918278?v=4" alt="Julio Alvarez" />
-    </div>
-    <div class="hero-content">
-      <p class="kicker" data-es="Ingeniero de Sistemas Computacionales · República Dominicana" data-en="Computer Systems Engineer · Dominican Republic">Ingeniero de Sistemas Computacionales · República Dominicana</p>
-      <h1>Julio Alvarez<span>.</span></h1>
-      <p class="hero-copy" data-es="Infraestructura, redes, servidores y soluciones tecnológicas pensadas para resolver problemas reales." data-en="Infrastructure, networks, servers and technology solutions built to solve real-world problems.">Infraestructura, redes, servidores y soluciones tecnológicas pensadas para resolver problemas reales.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#projects" data-es="Ver proyectos" data-en="View projects">Ver proyectos</a>
-        <a class="btn secondary" href={ig} target="_blank" rel="noreferrer">Instagram ↗</a>
+    <div class="hero-copy">
+      <p class="eyebrow" data-es="Ingeniero de Sistemas Computacionales · República Dominicana" data-en="Computer Systems Engineer · Dominican Republic">Ingeniero de Sistemas Computacionales · República Dominicana</p>
+      <h1>Julio<br />Alvarez</h1>
+      <p class="intro" data-es="Trabajo entre infraestructura, redes, servidores y soluciones digitales. Me interesa convertir problemas complejos en sistemas simples, útiles y bien pensados." data-en="I work across infrastructure, networks, servers and digital solutions. I like turning complex problems into simple, useful and thoughtful systems.">Trabajo entre infraestructura, redes, servidores y soluciones digitales. Me interesa convertir problemas complejos en sistemas simples, útiles y bien pensados.</p>
+      <div class="hero-links">
+        <a href="#projects" data-es="Ver proyectos" data-en="View projects">Ver proyectos <span>↘</span></a>
+        <a href={ig} target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
       </div>
     </div>
+    <figure class="portrait-card">
+      <img src="https://avatars.githubusercontent.com/u/20918278?v=4" alt="Julio Alvarez" />
+      <figcaption><span>Julio Alvarez</span><span>La Romana, RD</span></figcaption>
+    </figure>
   </section>
 
-  <section class="quick-strip shell" aria-label="Áreas principales">
-    <span>Infrastructure</span><span>Networking</span><span>Servers</span><span>CCTV</span><span>Automation</span><span>3D Printing</span>
+  <section class="statement shell">
+    <p data-es="Tecnología práctica, bien implementada y sin complicaciones innecesarias." data-en="Practical technology, implemented well and without unnecessary complexity.">Tecnología práctica, bien implementada y sin complicaciones innecesarias.</p>
   </section>
 
-  <section id="about" class="section shell">
-    <div class="section-heading">
-      <p class="section-label" data-es="Sobre mí" data-en="About me">Sobre mí</p>
-      <h2 data-es="Tecnología más allá del código." data-en="Technology beyond code.">Tecnología más allá del código.</h2>
-    </div>
-    <div class="about-body">
-      <p data-es="Soy Julio Alvarez, Ingeniero de Sistemas Computacionales enfocado en infraestructura, redes, servidores y soporte tecnológico. También trabajo con CCTV, domótica, impresión 3D y desarrollo asistido por inteligencia artificial." data-en="I'm Julio Alvarez, a Computer Systems Engineer focused on infrastructure, networking, servers and IT support. I also work with CCTV, home automation, 3D printing and AI-assisted development.">Soy Julio Alvarez, Ingeniero de Sistemas Computacionales enfocado en infraestructura, redes, servidores y soporte tecnológico. También trabajo con CCTV, domótica, impresión 3D y desarrollo asistido por inteligencia artificial.</p>
-      <p data-es="Me interesa entender el problema, simplificarlo y aplicar la tecnología adecuada para construir una solución que realmente funcione." data-en="I care about understanding the problem, simplifying it and applying the right technology to build a solution that actually works.">Me interesa entender el problema, simplificarlo y aplicar la tecnología adecuada para construir una solución que realmente funcione.</p>
-    </div>
-  </section>
-
-  <section id="services" class="section shell">
-    <div class="section-heading">
-      <p class="section-label" data-es="Áreas" data-en="Expertise">Áreas</p>
-      <h2 data-es="Lo que hago." data-en="What I do.">Lo que hago.</h2>
-    </div>
-    <div class="services-list">
-      <article><span>01</span><div><h3 data-es="Infraestructura & Servidores" data-en="Infrastructure & Servers">Infraestructura & Servidores</h3><p data-es="Configuración, virtualización y administración de servicios." data-en="Configuration, virtualization and service administration.">Configuración, virtualización y administración de servicios.</p></div></article>
-      <article><span>02</span><div><h3 data-es="Redes" data-en="Networking">Redes</h3><p data-es="Diseño, mantenimiento y diagnóstico de redes." data-en="Network design, maintenance and troubleshooting.">Diseño, mantenimiento y diagnóstico de redes.</p></div></article>
-      <article><span>03</span><div><h3 data-es="Soporte Tecnológico" data-en="IT Support">Soporte Tecnológico</h3><p data-es="Soluciones prácticas para hogares, negocios y organizaciones." data-en="Practical solutions for homes, businesses and organizations.">Soluciones prácticas para hogares, negocios y organizaciones.</p></div></article>
-      <article><span>04</span><div><h3 data-es="CCTV & Domótica" data-en="CCTV & Home Automation">CCTV & Domótica</h3><p data-es="Videovigilancia, automatización e integración tecnológica." data-en="Video surveillance, automation and technology integration.">Videovigilancia, automatización e integración tecnológica.</p></div></article>
-      <article><span>05</span><div><h3 data-es="Soluciones Digitales" data-en="Digital Solutions">Soluciones Digitales</h3><p data-es="Aplicaciones y herramientas apoyadas por tecnologías modernas e IA." data-en="Applications and tools powered by modern technologies and AI.">Aplicaciones y herramientas apoyadas por tecnologías modernas e IA.</p></div></article>
-      <article><span>06</span><div><h3 data-es="Impresión 3D" data-en="3D Printing">Impresión 3D</h3><p data-es="Fabricación digital mediante 3DCow." data-en="Digital fabrication through 3DCow.">Fabricación digital mediante 3DCow.</p></div></article>
+  <section id="about" class="split-section shell">
+    <div class="section-tag">01 / <span data-es="PERFIL" data-en="ABOUT">PERFIL</span></div>
+    <div class="section-copy">
+      <h2 data-es="No me define una sola herramienta." data-en="I'm not defined by one tool.">No me define una sola herramienta.</h2>
+      <p data-es="Soy Ingeniero de Sistemas Computacionales. Mi trabajo e intereses abarcan infraestructura, redes, servidores, soporte tecnológico, CCTV, domótica, impresión 3D y desarrollo de soluciones digitales apoyadas por inteligencia artificial." data-en="I'm a Computer Systems Engineer. My work and interests span infrastructure, networks, servers, IT support, CCTV, home automation, 3D printing and AI-assisted digital solutions.">Soy Ingeniero de Sistemas Computacionales. Mi trabajo e intereses abarcan infraestructura, redes, servidores, soporte tecnológico, CCTV, domótica, impresión 3D y desarrollo de soluciones digitales apoyadas por inteligencia artificial.</p>
     </div>
   </section>
 
-  <section id="projects" class="section shell">
-    <div class="section-heading projects-heading">
-      <p class="section-label" data-es="Proyectos" data-en="Projects">Proyectos</p>
-      <h2 data-es="Cosas que estoy construyendo." data-en="Things I'm building.">Cosas que estoy construyendo.</h2>
-    </div>
-    <div class="project-grid">
-      <article class="project project-main">
-        <div class="project-top"><span class="project-no">01</span><span class="status" data-es="En desarrollo" data-en="In development">En desarrollo</span></div>
-        <div><p class="project-type" data-es="Gestión operativa" data-en="Operational management">Gestión operativa</p><h3>SIBOR</h3><p data-es="Plataforma orientada a centralizar personal, recursos, operaciones e incidencias para organizaciones de respuesta a emergencias." data-en="A platform focused on centralizing personnel, resources, operations and incidents for emergency-response organizations.">Plataforma orientada a centralizar personal, recursos, operaciones e incidencias para organizaciones de respuesta a emergencias.</p></div>
-      </article>
-      <article class="project"><div class="project-top"><span class="project-no">02</span></div><div><p class="project-type" data-es="Mercado laboral" data-en="Labor market">Mercado laboral</p><h3>Tu Salario RD</h3><p data-es="Herramienta enfocada en salarios e información laboral en República Dominicana." data-en="A tool focused on salaries and labor-market information in the Dominican Republic.">Herramienta enfocada en salarios e información laboral en República Dominicana.</p></div></article>
-      <article class="project"><div class="project-top"><span class="project-no">03</span></div><div><p class="project-type" data-es="Propiedades" data-en="Properties">Propiedades</p><h3 data-es="Gestión de Alquileres" data-en="Rental Management">Gestión de Alquileres</h3><p data-es="Solución para propiedades residenciales y comerciales, contratos, pagos e inquilinos." data-en="A solution for residential and commercial properties, contracts, payments and tenants.">Solución para propiedades residenciales y comerciales, contratos, pagos e inquilinos.</p></div></article>
-      <article class="project cow"><div class="project-top"><span class="project-no">04</span></div><div><p class="project-type" data-es="Fabricación digital" data-en="Digital fabrication">Fabricación digital</p><h3>3DCow</h3><p data-es="Tecnología, diseño e impresión 3D para convertir ideas en objetos físicos." data-en="Technology, design and 3D printing to turn ideas into physical objects.">Tecnología, diseño e impresión 3D para convertir ideas en objetos físicos.</p></div></article>
+  <section id="work" class="work-section shell">
+    <div class="section-tag">02 / <span data-es="LO QUE HAGO" data-en="WHAT I DO">LO QUE HAGO</span></div>
+    <div class="work-list">
+      <article><span>Infraestructura</span><p data-es="Servidores, virtualización, servicios y administración tecnológica." data-en="Servers, virtualization, services and technology administration.">Servidores, virtualización, servicios y administración tecnológica.</p></article>
+      <article><span data-es="Redes" data-en="Networking">Redes</span><p data-es="Diseño, configuración, mantenimiento y diagnóstico." data-en="Design, configuration, maintenance and troubleshooting.">Diseño, configuración, mantenimiento y diagnóstico.</p></article>
+      <article><span data-es="Soporte" data-en="IT Support">Soporte</span><p data-es="Soluciones prácticas para hogares, negocios y organizaciones." data-en="Practical solutions for homes, businesses and organizations.">Soluciones prácticas para hogares, negocios y organizaciones.</p></article>
+      <article><span>CCTV / Domótica</span><p data-es="Seguridad, automatización e integración de espacios." data-en="Security, automation and connected spaces.">Seguridad, automatización e integración de espacios.</p></article>
+      <article><span data-es="Soluciones digitales" data-en="Digital solutions">Soluciones digitales</span><p data-es="Aplicaciones y herramientas creadas con tecnologías modernas e IA." data-en="Apps and tools built with modern technology and AI.">Aplicaciones y herramientas creadas con tecnologías modernas e IA.</p></article>
+      <article><span>3DCow</span><p data-es="Diseño e impresión 3D para convertir ideas en objetos físicos." data-en="3D design and printing to turn ideas into physical objects.">Diseño e impresión 3D para convertir ideas en objetos físicos.</p></article>
     </div>
   </section>
 
-  <section id="contact" class="section contact shell">
-    <p class="section-label" data-es="Contacto" data-en="Contact">Contacto</p>
-    <h2 data-es="Hablemos de tecnología." data-en="Let's talk technology.">Hablemos de tecnología.</h2>
-    <p data-es="Si tienes una idea, proyecto o necesitas apoyo con una solución tecnológica, puedes escribirme por Instagram." data-en="If you have an idea, a project or need support with a technology solution, reach out on Instagram.">Si tienes una idea, proyecto o necesitas apoyo con una solución tecnológica, puedes escribirme por Instagram.</p>
-    <a class="contact-cta" href={ig} target="_blank" rel="noreferrer">@julioalvarezrd ↗</a>
+  <section id="projects" class="projects-section shell">
+    <div class="projects-title-row">
+      <div class="section-tag">03 / <span data-es="PROYECTOS" data-en="PROJECTS">PROYECTOS</span></div>
+      <h2 data-es="Algunas cosas que estoy construyendo." data-en="A few things I'm building.">Algunas cosas que estoy construyendo.</h2>
+    </div>
+    <div class="project-list">
+      <a class="project-row" href="#"><span class="project-index">01</span><div><strong>SIBOR</strong><p data-es="Gestión operativa para organizaciones de respuesta a emergencias." data-en="Operational management for emergency-response organizations.">Gestión operativa para organizaciones de respuesta a emergencias.</p></div><span class="arrow">↗</span></a>
+      <a class="project-row" href="#"><span class="project-index">02</span><div><strong>Tu Salario RD</strong><p data-es="Información y herramientas sobre salarios y mercado laboral dominicano." data-en="Salary and labor-market information for the Dominican Republic.">Información y herramientas sobre salarios y mercado laboral dominicano.</p></div><span class="arrow">↗</span></a>
+      <a class="project-row" href="#"><span class="project-index">03</span><div><strong data-es="Gestión de Alquileres" data-en="Rental Management">Gestión de Alquileres</strong><p data-es="Plataforma para propiedades residenciales y comerciales." data-en="Platform for residential and commercial properties.">Plataforma para propiedades residenciales y comerciales.</p></div><span class="arrow">↗</span></a>
+      <a class="project-row" href="#"><span class="project-index">04</span><div><strong>3DCow</strong><p data-es="Impresión 3D, diseño y fabricación digital." data-en="3D printing, design and digital fabrication.">Impresión 3D, diseño y fabricación digital.</p></div><span class="arrow">↗</span></a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section shell">
+    <p class="section-tag">04 / <span data-es="CONTACTO" data-en="CONTACT">CONTACTO</span></p>
+    <h2 data-es="¿Tienes algo que quieras mejorar, conectar o construir?" data-en="Have something you want to improve, connect or build?">¿Tienes algo que quieras mejorar, conectar o construir?</h2>
+    <a href={ig} target="_blank" rel="noreferrer">@julioalvarezrd <span>↗</span></a>
   </section>
 </main>
 
@@ -110,17 +100,14 @@ const themeButton=document.querySelector('#theme-toggle');
 const langButton=document.querySelector('#lang-toggle');
 const menuButton=document.querySelector('#menu-toggle');
 const mobileMenu=document.querySelector('#mobile-menu');
-const savedTheme=localStorage.getItem('theme');
-root.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
-const updateThemeButton=()=>{themeButton.textContent=root.dataset.theme==='dark'?'☼':'☾'};
-updateThemeButton();
-themeButton.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';localStorage.setItem('theme',root.dataset.theme);updateThemeButton();});
+root.dataset.theme=localStorage.getItem('theme')||'light';
+themeButton.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='light'?'dark':'light';localStorage.setItem('theme',root.dataset.theme);});
 let lang=localStorage.getItem('lang')||'es';
 const applyLanguage=()=>{root.lang=lang;document.querySelectorAll('[data-es][data-en]').forEach(el=>el.textContent=el.dataset[lang]);langButton.textContent=lang==='es'?'EN':'ES';};
 applyLanguage();
 langButton.addEventListener('click',()=>{lang=lang==='es'?'en':'es';localStorage.setItem('lang',lang);applyLanguage();});
-const closeMenu=()=>{mobileMenu.classList.remove('open');menuButton.classList.remove('open');menuButton.setAttribute('aria-expanded','false');mobileMenu.setAttribute('aria-hidden','true');};
-menuButton.addEventListener('click',()=>{const open=!mobileMenu.classList.contains('open');mobileMenu.classList.toggle('open',open);menuButton.classList.toggle('open',open);menuButton.setAttribute('aria-expanded',String(open));mobileMenu.setAttribute('aria-hidden',String(!open));});
+const closeMenu=()=>{mobileMenu.classList.remove('open');menuButton.setAttribute('aria-expanded','false');mobileMenu.setAttribute('aria-hidden','true');};
+menuButton.addEventListener('click',()=>{const open=!mobileMenu.classList.contains('open');mobileMenu.classList.toggle('open',open);menuButton.setAttribute('aria-expanded',String(open));mobileMenu.setAttribute('aria-hidden',String(!open));menuButton.textContent=open?'CLOSE':'MENU';});
 mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 </script>
 </body>
