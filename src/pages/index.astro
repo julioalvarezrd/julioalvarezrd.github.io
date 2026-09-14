@@ -2,4 +2,96 @@
 import '../styles/global.css';
 const ig='https://instagram.com/julioalvarezrd';
 ---
-<!doctype html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><meta name="description" content="Julio Alvarez — Ingeniero de Sistemas Computacionales"><title>Julio Alvarez</title></head><body><header><a href="#top" class="brand">JA.</a><nav><a href="#about">Sobre mí</a><a href="#services">Áreas</a><a href="#projects">Proyectos</a><a href="#contact">Contacto</a></nav></header><main id="top"><section class="hero shell"><div><p class="eyebrow">Ingeniero de Sistemas Computacionales · República Dominicana</p><h1>Julio<br>Alvarez<span>.</span></h1><p class="lead">Infraestructura, redes, servidores y tecnología aplicada a resolver problemas reales.</p><div class="actions"><a class="primary" href="#projects">Ver proyectos</a><a class="secondary" href={ig} target="_blank">Instagram ↗</a></div><div class="tags"><span>Servers</span><span>Networking</span><span>Linux</span><span>CCTV</span><span>Automation</span><span>3D Printing</span></div></div><img class="portrait" src="https://avatars.githubusercontent.com/u/20918278?v=4" alt="Julio Alvarez"></section><section id="about" class="shell split"><p class="eyebrow">Sobre mí</p><div><h2>Tecnología más allá del código.</h2><p>Soy Julio Alvarez, Ingeniero de Sistemas Computacionales orientado a infraestructura, redes, servidores y soporte tecnológico. También trabajo con CCTV, domótica, impresión 3D y desarrollo asistido por inteligencia artificial para convertir ideas en soluciones funcionales.</p></div></section><section id="services" class="shell"><p class="eyebrow">Lo que hago</p><h2>De la red al producto digital.</h2><div class="grid"><article><h3>Infraestructura & Servidores</h3><p>Configuración, virtualización y administración de servicios.</p></article><article><h3>Redes</h3><p>Diseño, mantenimiento y diagnóstico.</p></article><article><h3>Soporte Tecnológico</h3><p>Soluciones prácticas para hogares, negocios y organizaciones.</p></article><article><h3>CCTV & Domótica</h3><p>Videovigilancia, automatización e integración.</p></article><article><h3>Soluciones Digitales</h3><p>Aplicaciones creadas con herramientas modernas e IA.</p></article><article><h3>Impresión 3D</h3><p>Fabricación digital mediante 3DCow.</p></article></div></section><section id="projects" class="shell"><p class="eyebrow">Proyectos</p><h2>Ideas que estoy convirtiendo en sistemas.</h2><div class="projects"><article class="wide"><small>Sistema de gestión operativa</small><h3>SIBOR</h3><p>Plataforma para centralizar personal, recursos, operaciones e incidencias en organizaciones de respuesta a emergencias.</p></article><article><small>Mercado laboral dominicano</small><h3>Tu Salario RD</h3><p>Herramienta enfocada en salarios e información laboral en República Dominicana.</p></article><article><small>En desarrollo</small><h3>Gestión de Alquileres</h3><p>Administración de propiedades residenciales y comerciales.</p></article><article><small>Impresión 3D</small><h3>3DCow</h3><p>Diseño y fabricación digital para transformar ideas en objetos físicos.</p></article></div></section><section id="contact" class="shell contact"><p class="eyebrow">Contacto</p><h2>Hablemos de tecnología.</h2><p>¿Tienes una idea, un proyecto o necesitas ayuda con alguna solución tecnológica?</p><a class="primary" href={ig} target="_blank">@julioalvarezrd ↗</a></section></main><footer class="shell"><span>© 2026 Julio Alvarez</span><span>Ingeniero de Sistemas Computacionales</span></footer></body></html>
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Julio Alvarez — Ingeniero de Sistemas Computacionales. Infraestructura, redes, servidores y soporte tecnológico." />
+  <title>Julio Alvarez · Ingeniero de Sistemas Computacionales</title>
+</head>
+<body>
+<header>
+  <a href="#top" class="brand">JA<span>.</span></a>
+  <nav>
+    <a href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a>
+    <a href="#services" data-es="Áreas" data-en="Expertise">Áreas</a>
+    <a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
+    <a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
+  </nav>
+  <div class="controls">
+    <button id="lang-toggle" class="control" aria-label="Cambiar idioma">EN</button>
+    <button id="theme-toggle" class="control" aria-label="Cambiar tema">☼</button>
+  </div>
+</header>
+<main id="top">
+  <section class="hero shell">
+    <div>
+      <p class="eyebrow" data-es="Ingeniero de Sistemas Computacionales · República Dominicana" data-en="Computer Systems Engineer · Dominican Republic">Ingeniero de Sistemas Computacionales · República Dominicana</p>
+      <h1>Julio<br />Alvarez<span>.</span></h1>
+      <p class="lead" data-es="Infraestructura, redes, servidores y tecnología aplicada a resolver problemas reales." data-en="Infrastructure, networks, servers and technology applied to solving real-world problems.">Infraestructura, redes, servidores y tecnología aplicada a resolver problemas reales.</p>
+      <div class="actions">
+        <a class="primary" href="#projects" data-es="Ver proyectos" data-en="View projects">Ver proyectos</a>
+        <a class="secondary" href={ig} target="_blank" rel="noreferrer">Instagram ↗</a>
+      </div>
+      <div class="tags"><span>Servers</span><span>Networking</span><span>Linux</span><span>CCTV</span><span>Automation</span><span>3D Printing</span></div>
+    </div>
+    <img class="portrait" src="https://avatars.githubusercontent.com/u/20918278?v=4" alt="Julio Alvarez" />
+  </section>
+
+  <section id="about" class="shell split">
+    <p class="eyebrow" data-es="Sobre mí" data-en="About me">Sobre mí</p>
+    <div>
+      <h2 data-es="Tecnología más allá del código." data-en="Technology beyond code.">Tecnología más allá del código.</h2>
+      <p data-es="Soy Julio Alvarez, Ingeniero de Sistemas Computacionales orientado a infraestructura, redes, servidores y soporte tecnológico. También trabajo con CCTV, domótica, impresión 3D y desarrollo asistido por inteligencia artificial para convertir ideas en soluciones funcionales." data-en="I'm Julio Alvarez, a Computer Systems Engineer focused on infrastructure, networks, servers and IT support. I also work with CCTV, home automation, 3D printing and AI-assisted development to turn ideas into functional solutions.">Soy Julio Alvarez, Ingeniero de Sistemas Computacionales orientado a infraestructura, redes, servidores y soporte tecnológico. También trabajo con CCTV, domótica, impresión 3D y desarrollo asistido por inteligencia artificial para convertir ideas en soluciones funcionales.</p>
+    </div>
+  </section>
+
+  <section id="services" class="shell">
+    <p class="eyebrow" data-es="Lo que hago" data-en="What I do">Lo que hago</p>
+    <h2 data-es="De la red al producto digital." data-en="From the network to the digital product.">De la red al producto digital.</h2>
+    <div class="grid">
+      <article><h3 data-es="Infraestructura & Servidores" data-en="Infrastructure & Servers">Infraestructura & Servidores</h3><p data-es="Configuración, virtualización y administración de servicios." data-en="Configuration, virtualization and service administration.">Configuración, virtualización y administración de servicios.</p></article>
+      <article><h3 data-es="Redes" data-en="Networking">Redes</h3><p data-es="Diseño, mantenimiento y diagnóstico." data-en="Design, maintenance and troubleshooting.">Diseño, mantenimiento y diagnóstico.</p></article>
+      <article><h3 data-es="Soporte Tecnológico" data-en="IT Support">Soporte Tecnológico</h3><p data-es="Soluciones prácticas para hogares, negocios y organizaciones." data-en="Practical solutions for homes, businesses and organizations.">Soluciones prácticas para hogares, negocios y organizaciones.</p></article>
+      <article><h3>CCTV & Domótica</h3><p data-es="Videovigilancia, automatización e integración." data-en="Video surveillance, automation and integration.">Videovigilancia, automatización e integración.</p></article>
+      <article><h3 data-es="Soluciones Digitales" data-en="Digital Solutions">Soluciones Digitales</h3><p data-es="Aplicaciones creadas con herramientas modernas e IA." data-en="Applications built with modern tools and AI.">Aplicaciones creadas con herramientas modernas e IA.</p></article>
+      <article><h3 data-es="Impresión 3D" data-en="3D Printing">Impresión 3D</h3><p data-es="Fabricación digital mediante 3DCow." data-en="Digital fabrication through 3DCow.">Fabricación digital mediante 3DCow.</p></article>
+    </div>
+  </section>
+
+  <section id="projects" class="shell">
+    <p class="eyebrow" data-es="Proyectos" data-en="Projects">Proyectos</p>
+    <h2 data-es="Ideas que estoy convirtiendo en sistemas." data-en="Ideas I'm turning into systems.">Ideas que estoy convirtiendo en sistemas.</h2>
+    <div class="projects">
+      <article class="wide"><small data-es="Sistema de gestión operativa" data-en="Operational management system">Sistema de gestión operativa</small><h3>SIBOR</h3><p data-es="Plataforma para centralizar personal, recursos, operaciones e incidencias en organizaciones de respuesta a emergencias." data-en="A platform to centralize personnel, resources, operations and incidents for emergency-response organizations.">Plataforma para centralizar personal, recursos, operaciones e incidencias en organizaciones de respuesta a emergencias.</p></article>
+      <article><small data-es="Mercado laboral dominicano" data-en="Dominican labor market">Mercado laboral dominicano</small><h3>Tu Salario RD</h3><p data-es="Herramienta enfocada en salarios e información laboral en República Dominicana." data-en="A tool focused on salaries and labor-market information in the Dominican Republic.">Herramienta enfocada en salarios e información laboral en República Dominicana.</p></article>
+      <article><small data-es="En desarrollo" data-en="In development">En desarrollo</small><h3 data-es="Gestión de Alquileres" data-en="Rental Management">Gestión de Alquileres</h3><p data-es="Administración de propiedades residenciales y comerciales." data-en="Management of residential and commercial properties.">Administración de propiedades residenciales y comerciales.</p></article>
+      <article><small data-es="Impresión 3D" data-en="3D Printing">Impresión 3D</small><h3>3DCow</h3><p data-es="Diseño y fabricación digital para transformar ideas en objetos físicos." data-en="Design and digital fabrication to turn ideas into physical objects.">Diseño y fabricación digital para transformar ideas en objetos físicos.</p></article>
+    </div>
+  </section>
+
+  <section id="contact" class="shell contact">
+    <p class="eyebrow" data-es="Contacto" data-en="Contact">Contacto</p>
+    <h2 data-es="Hablemos de tecnología." data-en="Let's talk technology.">Hablemos de tecnología.</h2>
+    <p data-es="¿Tienes una idea, un proyecto o necesitas ayuda con alguna solución tecnológica?" data-en="Have an idea, a project or need help with a technology solution?">¿Tienes una idea, un proyecto o necesitas ayuda con alguna solución tecnológica?</p>
+    <a class="primary" href={ig} target="_blank" rel="noreferrer">@julioalvarezrd ↗</a>
+  </section>
+</main>
+<footer class="shell"><span>© 2026 Julio Alvarez</span><span data-es="Ingeniero de Sistemas Computacionales" data-en="Computer Systems Engineer">Ingeniero de Sistemas Computacionales</span></footer>
+<script is:inline>
+const root=document.documentElement;
+const themeButton=document.querySelector('#theme-toggle');
+const langButton=document.querySelector('#lang-toggle');
+const savedTheme=localStorage.getItem('theme');
+root.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+const updateThemeButton=()=>{themeButton.textContent=root.dataset.theme==='dark'?'☼':'☾'};
+updateThemeButton();
+themeButton.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';localStorage.setItem('theme',root.dataset.theme);updateThemeButton();});
+let lang=localStorage.getItem('lang')||'es';
+const applyLanguage=()=>{root.lang=lang;document.querySelectorAll('[data-es][data-en]').forEach(el=>{el.textContent=el.dataset[lang]});langButton.textContent=lang==='es'?'EN':'ES';};
+applyLanguage();
+langButton.addEventListener('click',()=>{lang=lang==='es'?'en':'es';localStorage.setItem('lang',lang);applyLanguage();});
+</script>
+</body>
+</html>
